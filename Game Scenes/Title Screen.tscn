@@ -1,3 +1,39 @@
-[gd_scene format=3 uid="uid://dr7wq3vvh1crh"]
+[gd_scene load_steps=3 format=3 uid="uid://dr7wq3vvh1crh"]
+
+[ext_resource type="Script" uid="uid://b1pap6uine8ll" path="res://Scripts/MenuScript.gd" id="1_6l7ha"]
+[ext_resource type="Script" uid="uid://dmgejgoyq51sd" path="res://Scripts/ButtonScript.gd" id="2_g54y0"]
 
 [node name="Title Screen" type="Node2D"]
+script = ExtResource("1_6l7ha")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+
+[node name="Start Button" type="Button" parent="."]
+offset_left = -49.0
+offset_top = 125.0
+offset_right = 57.0
+offset_bottom = 156.0
+text = "START GAME"
+script = ExtResource("2_g54y0")
+
+[node name="Leaderboards Button" type="Button" parent="."]
+offset_left = -64.0
+offset_top = 191.0
+offset_right = 68.0
+offset_bottom = 222.0
+text = "LEADERBOARDS"
+
+[node name="Credits Button" type="Button" parent="."]
+offset_left = -58.0
+offset_top = 241.0
+offset_right = 55.0
+offset_bottom = 272.0
+text = "CREDITS"
+
+[node name="Logo" type="Sprite2D" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[connection signal="pressed" from="Start Button" to="." method="to_game"]
+[connection signal="pressed" from="Leaderboards Button" to="." method="to_leaderboard"]
+[connection signal="pressed" from="Credits Button" to="." method="to_credits"]

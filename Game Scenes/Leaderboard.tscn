@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dmf1uvampe8cr"]
+
+[ext_resource type="Script" uid="uid://m6lfm71dc4tq" path="res://Scripts/LeaderboardScript.gd" id="1_uf8a8"]
+
+[node name="Leaderboard" type="Node2D"]
+
+[node name="LB Managaer" type="Node2D" parent="."]
+script = ExtResource("1_uf8a8")

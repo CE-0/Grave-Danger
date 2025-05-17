@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://crt7yq6psnuug"
+path="res://.godot/imported/Generator Fixed.wav-f96056b5fa1c6f36bc5df1f65647879b.sample"
+
+[deps]
+
+source_file="res://SFX/Generator Fixed.wav"
+dest_files=["res://.godot/imported/Generator Fixed.wav-f96056b5fa1c6f36bc5df1f65647879b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

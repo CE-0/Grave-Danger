@@ -1,5 +1,41 @@
-[gd_scene format=3 uid="uid://wr4s83cc756p"]
+[gd_scene load_steps=4 format=3 uid="uid://wr4s83cc756p"]
+
+[ext_resource type="Script" uid="uid://c5aswa4jcnloe" path="res://Scripts/GameScript.gd" id="1_4ryx1"]
+[ext_resource type="PackedScene" uid="uid://dmcy7akc84q27" path="res://Game Assets/Grave.tscn" id="1_kcu6f"]
+[ext_resource type="PackedScene" uid="uid://dia7iunvwoy0x" path="res://Game Assets/Player.tscn" id="2_vq8dx"]
 
 [node name="Game" type="Node2D"]
+script = ExtResource("1_4ryx1")
 
 [node name="Game Manager" type="Node2D" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+scale = Vector2(2, 2)
+
+[node name="Player" parent="." instance=ExtResource("2_vq8dx")]
+
+[node name="Grave" parent="." instance=ExtResource("1_kcu6f")]
+position = Vector2(188, 85)
+
+[node name="Grave2" parent="." instance=ExtResource("1_kcu6f")]
+position = Vector2(278, 85)
+
+[node name="Grave3" parent="." instance=ExtResource("1_kcu6f")]
+position = Vector2(369, 85)
+
+[node name="Grave4" parent="." instance=ExtResource("1_kcu6f")]
+position = Vector2(465, 85)
+
+[node name="Grave5" parent="." instance=ExtResource("1_kcu6f")]
+position = Vector2(188, 205)
+
+[node name="Grave6" parent="." instance=ExtResource("1_kcu6f")]
+position = Vector2(278, 205)
+
+[node name="Grave7" parent="." instance=ExtResource("1_kcu6f")]
+position = Vector2(369, 205)
+
+[node name="Grave8" parent="." instance=ExtResource("1_kcu6f")]
+position = Vector2(465, 205)
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]

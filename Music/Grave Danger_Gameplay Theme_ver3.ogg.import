@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://chrwcvg8bj0dk"
+path="res://.godot/imported/Grave Danger_Gameplay Theme_ver3.ogg-044817fa2addc1d9a4b984ab5f384533.oggvorbisstr"
+
+[deps]
+
+source_file="res://Music/Grave Danger_Gameplay Theme_ver3.ogg"
+dest_files=["res://.godot/imported/Grave Danger_Gameplay Theme_ver3.ogg-044817fa2addc1d9a4b984ab5f384533.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

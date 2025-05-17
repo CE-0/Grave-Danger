@@ -1,3 +1,10 @@
-[gd_scene format=3 uid="uid://dw3b22esb7hjb"]
+[gd_scene load_steps=2 format=3 uid="uid://dw3b22esb7hjb"]
+
+[ext_resource type="Script" uid="uid://cucby38blrr7g" path="res://Scripts/Zombie.gd" id="1_ldmj4"]
 
 [node name="Zombie" type="CharacterBody2D"]
+script = ExtResource("1_ldmj4")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]

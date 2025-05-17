@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b5lwdia4mbo4e"
+path="res://.godot/imported/Zombie Spawn.wav-f17d18ede788ad25ce8bd80a1e2ee8b4.sample"
+
+[deps]
+
+source_file="res://SFX/Zombie Spawn.wav"
+dest_files=["res://.godot/imported/Zombie Spawn.wav-f17d18ede788ad25ce8bd80a1e2ee8b4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
